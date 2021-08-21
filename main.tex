@@ -19,38 +19,28 @@
   \usetheme{metropolis}
 }
 
-%\setbeamercolor{math text}{fg=green!50!black}
-%\setbeamercolor{normal text in math text}{parent=math text}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{booktabs}
 \usepackage[latin1]{inputenc}
 \usepackage{colortbl}
 \usepackage[english]{babel}
-   \usepackage{booktabs}
-    \usepackage{epstopdf}
-  \usepackage{fancyref}
-  \usepackage{graphicx}
-%\usepackage{pstricks}
-\usepackage{pifont}
-  \usepackage{array}
-  \usepackage{hyperref}
-  \usepackage{caption}
-  \usepackage{tikz}   %for nice-looking graphs
-  \usepackage{pgfplots} %for nice-looking plots of data (requires tikz package)
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{tikz}   %for nice-looking graphs
+\usepackage{pgfplots} %for nice-looking plots of data (requires tikz package)
     \pgfplotsset{compat = newest} %to use newest plot settings in pgfplot
-  \usepackage{graphicx} % for inclusion of EPS graphics
+\usepackage{graphicx} % for inclusion of EPS graphics
   \usepackage{multicol} % Multicolumn formatting (in-line tables)
   \usepackage{multirow}
   \usepackage{rotating}  % allows for rotated tables
   \usepackage{setspace}
-  \usepackage{array}     % Modifications of tabular environment
   % \usepackage{subfloat} %to put multiple floats in the same frame
   \usepackage{color}
   \usepackage{lscape}
   \usepackage[super,negative]{nth}
   \usepackage{adjustbox}
   \usepackage{collectbox}
-  % \usepackage{subfig}
   \usepackage{subcaption}
   \usepackage{appendixnumberbeamer}
 
@@ -86,7 +76,7 @@
   %for putting refs in lit review
   \newcommand{\smallref}[1]{\scriptsize {\color{gray}[#1] }\normalsize}
 
-  %for overlays
+  %some convenient environments for for overlays
   \newenvironment{slide}{\begin{frame}[allowframebreaks]}{\end{frame}}
   \newenvironment{refs}{\footnotesize \color{darkgray} [}
       {] \normalsize \color{black}}
@@ -139,22 +129,19 @@
 %
 
 
-\title[Building a productive workforce]{\textbf{Building a productive workforce:} \\ the role of structured management practices}
-\subtitle{}
+\title[Short Title]{The full title of your presentation }
+
 \author{
-  \centering
-\small
-  \begin{tabular}{c@{\hskip .25in}c@{\hskip .25in}c}
-  Christopher M.\ Cornwell           &  Ian M.\ Schmutte        & Daniela Scur \\
-  Department of Economics            &  Department of Economics & MIT Sloan  \\
-  University of Georgia             &  University of Georgia   & School of Management 
-  % \href{mailto:cornwl@uga.edu}{\texttt{cornwl@uga.edu}}  & \\
-  \end{tabular}
+\centering
+    Your Name \\ Your affiliation \\ \href{mailto://you@uga.edu}{\texttt{you@uga.edu}}
 }
 
 
-\date[]{\centering \color{red} {\vskip .25in}
-March 3--4, 2019 \\ 24th SOLE Annual Meetings \\ Arlington, VA}
+\date[]{
+    \centering 
+        \color{red} {\vskip .25in}
+        Date of talk \\ Name of venue \\ location of venue
+}
 \maketitle
 
 
